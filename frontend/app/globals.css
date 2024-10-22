@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+    .no-spinner {
+      @apply appearance-none;
+      margin: 0;
+     
+    }
+  
+    .no-spinner::-webkit-inner-spin-button,
+    .no-spinner::-webkit-outer-spin-button {
+      @apply appearance-none;
+      margin: 0;
+    }
+  }
+  
+  
