@@ -1,0 +1,60 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .title {
+    font-size: 1.5rem; 
+    margin-bottom: 1rem; 
+    font-weight: 600; 
+  }
+  
+  .input-container {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .input {
+    width: 2.5rem; 
+    height: 2.5rem;
+    border-radius: 0.5rem; 
+    background-color: #e5e7eb; 
+    font-size: 1.875rem;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+  }
+  
+  .button-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem; 
+    margin-top: 1.5rem; 
+  }
+  
+  .btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #4f46e5;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .btn-resend {
+    background-color: #f97316;
+  }
+  
+  .spinner {
+    margin-top: 1.5rem; 
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
